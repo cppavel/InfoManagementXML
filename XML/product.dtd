@@ -1,11 +1,8 @@
-<!DOCTYPE product [
 
 <!ELEMENT shop (product*)>
 <!ELEMENT product (name, sizes+, description, price)>
-<!ATTLIST product code CDATA #IMPLIED>
-<!ELEMENT name (#PCDATA)
-<!ELEMENT size (#PCDATA)
-<!ELEMENT description (#PCDATA)
-<!ELEMENT price (#PCDATA)
-
-]>
+<!ATTLIST product xmi.id CODE #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
