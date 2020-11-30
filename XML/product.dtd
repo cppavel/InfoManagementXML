@@ -1,7 +1,7 @@
 
 <!ELEMENT shop (product*)>
 <!ELEMENT product (name, sizes+, description, price)>
-<!ATTLIST product code CDATA #IMPLIED>
+<!ATTLIST product xmi.id Code #REQUIRED>
 <!ELEMENT name (#PCDATA)
 <!ELEMENT size (#PCDATA)
 <!ELEMENT description (#PCDATA)
