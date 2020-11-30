@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE Product SYSTEM "product.dtd">
 <Shop>
-  <Product code='1753'>
+  <Product xmi.id='1753'>
     <Product.name>Denim Jacket</Product.name>
     <Product.description>White denim jacket, metal buttons, buttoned pockets</Product.description>
     <Product.size>S</Product.size>
@@ -9,7 +9,7 @@
     <Product.size>L</Product.size>
     <Product.price>37.99</Product.price>
   </Product>
-  <Product code='1757'>
+  <Product xmi.id='1757'>
     <Product.name>Bomber Jacket</Product.name>
     <Product.description>Black rain-resistant jacket, zipped pockets</Product.description>
     <Product.size>M</Product.size>
