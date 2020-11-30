@@ -9,6 +9,3 @@
 <!ELEMENT price (#PCDATA)
 
 ]>
-
-|| I've added size and code to product
-|| I've removed currency
