@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE database SYSTEM "Seller.dtd">
+
+
+
+
 <database>
-<Seller xmi.id="2">
+<Seller xmi.id="s2">
   <User.id> 138729 </User.id>
   <User.fullName> Mark Jacobs </User.fullName>
-  <User.isLoggedin> True </User.isLoggedin>
+  <User.isLoggedIn> True </User.isLoggedIn>
   
-  <Seller.shops>
+  <Seller.shop>
     <Shop.shopName> HeavyGym </Shop.shopName>
     <Shop.products> 
       <Product.name> Dumbbell </Product.name>
       <Product.description> One-handed weight which comes in a variety of sizes </Product.description>
     </Shop.products>
-  </Seller.shops> 
+  </Seller.shop> 
   
-  <Seller.shops>
+  <Seller.shop>
     <Shop.shopName> GardenWorkshop</Shop.shopName>
     <Shop.products>
       <Product.name> Trowel </Product.name>
       <Product.description> used to dig up topsoil </Product.description>
     </Shop.products>
-  </Seller.shops>
+  </Seller.shop>
   
   <Seller.onlineCheckoutId> 22857 </Seller.onlineCheckoutId>
   <Seller.owner><Shop xmi.idef="tbd"/></Seller.owner>

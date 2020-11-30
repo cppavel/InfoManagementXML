@@ -1,8 +1,7 @@
 
-<!ELEMENT shop (product*)>
-<!ELEMENT product (name, sizes+, description, price)>
-<!ATTLIST product xmi.id CODE #REQUIRED>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT size (#PCDATA)>
-<!ELEMENT description (#PCDATA)>
-<!ELEMENT price (#PCDATA)>
+<!ELEMENT Product (Product.name, Product.size+, Product.description, Product.price)>
+<!ATTLIST Product xmi.id ID #REQUIRED>
+<!ELEMENT Product.name (#PCDATA)>
+<!ELEMENT Product.size (#PCDATA)>
+<!ELEMENT Product.description (#PCDATA)>
+<!ELEMENT Product.price (#PCDATA)>

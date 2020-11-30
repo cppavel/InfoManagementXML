@@ -4,9 +4,9 @@
 <!ELEMENT database (Seller*)>
 
 
-<!ELEMENT Seller (User.id?,User.fullname?,User.isLoggedIn?,Seller.shops+,Seller.OnlineCheckoutId?,Seller.owner?)> 
+<!ELEMENT Seller (User.id?,User.fullname?,User.isLoggedIn?,Seller.shop+,Seller.OnlineCheckoutId?,Seller.owner?)> 
 <!ATTLIST Seller
- xmi.id ID #FIXED '2'>
+ xmi.id ID #REQUIRED >
  
   
 <!ELEMENT User.id (#PCDATA)>
@@ -14,7 +14,7 @@
 <!ELEMENT User.isLoggedIn (#PCDATA)>
 
 
-<!ELEMENT Seller.shops (Shop.shopName?,Shop.products+)
+<!ELEMENT Seller.shop (Shop.shopName?,Shop.products+)
 >
 
 <!ELEMENT Seller.onlineCheckoutId (#PCDATA)>
