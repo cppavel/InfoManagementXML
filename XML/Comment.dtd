@@ -1,0 +1,14 @@
+<!ELEMENT Comment (Comment.description,Comment.upvotes,Comment.downvotes,Comment.userRating) >
+<!ATTLIST Comment rating CDATA #REQUIRED>
+<!ATTLIST Comment xmi.id ID #REQUIRED>
+<!ELEMENT Comment.description (title,text,author,location)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT Comment.upvotes (#PCDATA)>
+<!ELEMENT Comment.downvotes (#PCDATA)>
+<!ELEMENT Comment.userRating (#PCDATA)>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Comment SYSTEM "comment.dtd">
+	
+<Comment rating ="5" xmi.id ="c1">
+	<Comment.description>
+		<title>BORAT HERE</title>
+		<text>VERY NICE PRODUCT, BACK IN KAZAKHSTAN WE DON'T HAVE SUCH</text>
+		<author>BORAT</author>
+		<location>ALMATY</location>
+	</Comment.description>
+	<Comment.upvotes>
+			10
+		</Comment.upvotes>
+	<Comment.downvotes>
+			2
+		</Comment.downvotes>
+	<Comment.userRating>
+			8
+		</Comment.userRating>
+</Comment>
