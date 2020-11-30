@@ -1,4 +1,5 @@
 <?xml version="1.0" standalone="no"?>
+<!DOCTYPE Product SYSTEM "product.dtd">
 <Shop>
   <Product code='1753'>
     <Product.name>Denim Jacket</Product.name>
