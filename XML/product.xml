@@ -16,25 +16,4 @@
     <Product.size>XL</Product.size>
     <Product.price>23.99</Product.price>
   </Product>
-    <Product code=''>
-    <Product.name>Converse Hi Tops</Product.name>
-    <Product.size>39</Product.size>
-    <Product.size>40</Product.size>
-    <Product.description>Black and white lace up hi-top trainers, perfect for all seasons</Product.description>
-    <Product.price>67.99</Product.price>
-  </Product>
-    <Product code='1537'>
-    <Product.name>Flannel</Product.name>
-    <Product.description>Checkered oversized shirt, zipped pockets</Product.description>
-    <Product.size>One Size</Product.size>
-    <Product.price>17,000</Product.price>
-  </Product>
-    <Product code='1359'>
-    <Product.name>Trench Coat</Product.name>
-    <Product.size>S</Product.size>
-    <Product.size>M</Product.size>
-    <Product.size>L</Product.size>
-    <Product.description>Tan Long Coat, buttoned pockets, silk-lined inside</Product.description>
-    <Product.price>35.99</Product.price>
-  </Product>
 </Shop>
