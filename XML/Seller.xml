@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<database>
+<Seller xmi.id="2">
+  <User.id> 138729 </User.id>
+  <User.fullName> Mark Jacobs </User.fullName>
+  <User.isLoggedin> True </User.isLoggedin>
+  
+  <Seller.shops>
+    <Shop.shopName> HeavyGym </Shop.shopName>
+    <Shop.products> 
+      <Product.name> Dumbbell </Product.name>
+      <Product.description> One-handed weight which comes in a variety of sizes </Product.description>
+    </Shop.products>
+  </Seller.shops> 
+  
+  <Seller.shops>
+    <Shop.shopName> GardenWorkshop</Shop.shopName>
+    <Shop.products>
+      <Product.name> Trowel </Product.name>
+      <Product.description> used to dig up topsoil </Product.description>
+    </Shop.products>
+  </Seller.shops>
+  
+  <Seller.onlineCheckoutId> 22857 </Seller.onlineCheckoutId>
+  <Seller.owner><Shop xmi.idef="tbd"/></Seller.owner>
+</Seller>
+</database>
+
+

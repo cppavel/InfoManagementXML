@@ -1,0 +1,29 @@
+<!-- DTD created at Mon Nov 30 11:23:49 GMT 2020 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!DOCTYPE database> [
+  
+<!ELEMENT database (Seller*)>
+
+
+<!ELEMENT Seller (User.id?,User.fullname?,User.isLoggedIn?,Seller.shops+,Seller.OnlineCheckoutId?,Seller.owner?) 
+<!ATTLIST Seller
+  xmi.id #FIXED '2'>
+  
+<!ELEMENT User.id (#PCDATA)>
+<!ELEMENT User.fullName (#PCDATA)>
+<!ELEMENT User.isLoggedIn (#PCDATA)>
+
+
+<!ELEMENT Seller.shops (Shop.shopName?,Shop.products+)
+
+<!ELEMENT Seller.onlineCheckoutId (#PCDATA)>
+<!ELEMENT Seller.shopName (#PCDATA)>
+<!ELEMENT Seller.owner (Shop)>
+
+
+<!ELEMENT Seller.products (Product.name?,Product.description?)
+
+<!ELEMENT Product.name (#PCDATA)>
+<!ELEMENT Product.description (#PCDATA)>
+
+]>

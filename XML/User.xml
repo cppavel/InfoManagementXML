@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<database>
+<User xmi.id="1">
+  <User.id> 138729 </User.id>
+  <User.fullName> Mark Jacobs </User.fullName>
+  <User.isLoggedin> True </User.isLoggedin>
+  <User.owner><Account xmi.idef="tbd"/></User.owner>
+</User>
+</database>
+
