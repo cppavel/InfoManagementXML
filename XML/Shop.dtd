@@ -1,0 +1,11 @@
+<!ELEMENT databaseShop (Shop*)>
+<!ELEMENT Shop (Shop.name, Shop.products+, Shop.owner)>
+<!ATTLIST Shop id CDATA #REQUIRED>
+<!ELEMENT Shop.name (#PCDATA)
+>
+<!ELEMENT Shop.products (Product*)>
+<!ELEMENT Product EMPTY>
+<!ATTLIST Product refid CDATA #REQUIRED>
+<!ELEMENT Shop.owner (Seller)>
+<!ELEMENT Seller EMPTY>
+<!ATTLIST Seller refid CDATA #REQUIRED>

@@ -1,7 +1,10 @@
-
-<!ELEMENT Product (Product.name, Product.size+, Product.description, Product.price)>
-<!ATTLIST Product xmi.id ID #REQUIRED>
+<!ELEMENT databaseProduct (Product* )>
+<!ELEMENT Product (Product.name, Product.size+, Product.description, Product.price,Product.comments)>
+<!ATTLIST Product id CDATA #REQUIRED>
 <!ELEMENT Product.name (#PCDATA)>
 <!ELEMENT Product.size (#PCDATA)>
 <!ELEMENT Product.description (#PCDATA)>
 <!ELEMENT Product.price (#PCDATA)>
+<!ELEMENT Product.comments (Comment*)>
+<!ELEMENT Comment EMPTY>
+<!ATTLIST Comment refid CDATA #REQUIRED>

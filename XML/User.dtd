@@ -1,11 +1,10 @@
-<!-- DTD created at Mon Nov 30 11:24:19 GMT 2020 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
-<!ELEMENT database (User*)>
-<!ELEMENT User (User.id?,User.fullName?,User.isLoggedIn?,User.owner )>
+<!ELEMENT databaseUser (User*)>
+<!ELEMENT User (User.fullName?,User.isLoggedIn?,User.account )>
 <!ATTLIST User
- xmi.id ID #REQUIRED>
-  
-<!ELEMENT User.id (#PCDATA)>
+ id CDATA #REQUIRED>
 <!ELEMENT User.fullName (#PCDATA)>
 <!ELEMENT User.isLoggedIn (#PCDATA)>
-<!ELEMENT User.owner (Account)>  
+<!ELEMENT User.account (Account)>  
+<!ELEMENT Account EMPTY>
+<!ATTLIST Account refid CDATA #REQUIRED>
   

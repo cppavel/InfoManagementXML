@@ -1,31 +1,19 @@
-<!-- DTD created at Mon Nov 30 11:23:49 GMT 2020 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
-
-
-<!ELEMENT database (Seller*)>
-
-
-<!ELEMENT Seller (User.id?,User.fullname?,User.isLoggedIn?,Seller.shop+,Seller.OnlineCheckoutId?,Seller.owner?)> 
+<!ELEMENT databaseSeller (Seller*)>
+<!ELEMENT Seller (User.fullname?,User.isLoggedIn?,User.account,Seller.shops*,Seller.onlineCheckoutId?)> 
 <!ATTLIST Seller
- xmi.id ID #REQUIRED >
- 
-  
-<!ELEMENT User.id (#PCDATA)>
-<!ELEMENT User.fullName (#PCDATA)>
+ id CDATA #REQUIRED >
+<!ELEMENT User.fullname (#PCDATA)>
 <!ELEMENT User.isLoggedIn (#PCDATA)>
-
-
-<!ELEMENT Seller.shop (Shop.shopName?,Shop.products+)
+<!ELEMENT User.account (Account)>  
+<!ELEMENT Account EMPTY>
+<!ATTLIST Account refid CDATA #REQUIRED>
+<!ELEMENT Seller.shops (Shop*)
 >
-
+<!ELEMENT Shop EMPTY>
+<!ATTLIST Shop refid CDATA #REQUIRED>
 <!ELEMENT Seller.onlineCheckoutId (#PCDATA)>
-<!ELEMENT Seller.shopName (#PCDATA)>
-<!ELEMENT Seller.owner (Shop)>
 
 
-<!ELEMENT Seller.products (Product.name?,Product.description?)
->
 
-<!ELEMENT Product.name (#PCDATA)>
-<!ELEMENT Product.description (#PCDATA)>
 
 

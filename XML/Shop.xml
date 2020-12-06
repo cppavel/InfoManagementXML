@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE databaseShop SYSTEM "Shop.dtd">
+<databaseShop>
+	<Shop id="s1">
+		<Shop.name> AmazonReseller </Shop.name>
+		<Shop.products>
+			<Product refid="p228"/>
+			<Product refid="p1757"/>
+		</Shop.products>
+		<Shop.owner>
+			<Seller refid="sl2"/>
+		</Shop.owner>
+	</Shop>
+	<Shop id="s2">
+		<Shop.name> AmazonReseller </Shop.name>
+		<Shop.products>
+			<Product refid="p1753"/>
+			<Product refid="p1757"/>
+		</Shop.products>
+		<Shop.owner>
+			<Seller refid="sl2"/>
+		</Shop.owner>
+	</Shop>
+	<Shop id="s3">
+		<Shop.name>Heavy Gym</Shop.name>
+		<Shop.products>
+			<Product refid="p991"/>
+		</Shop.products>
+		<Shop.owner>
+			<Seller refid="sl1"/>
+		</Shop.owner>
+	</Shop>
+	<Shop id="s4">
+		<Shop.name>GardenWorkshop</Shop.name>
+		<Shop.products>
+			<Product refid="p123"/>
+		</Shop.products>
+		<Shop.owner>
+			<Seller refid="sl1"/>
+		</Shop.owner>
+	</Shop>
+</databaseShop>

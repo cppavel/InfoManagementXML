@@ -1,15 +1,48 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE Product SYSTEM "product.dtd">
-
-  <Product xmi.id="p1753">
-    <Product.name>Denim Jacket</Product.name>
-    <Product.size>S</Product.size>
-    <Product.size>M</Product.size>
-    <Product.size>L</Product.size>
-    <Product.description>White denim jacket, metal buttons, buttoned pockets</Product.description>
-    <Product.price>37.99</Product.price>
-  </Product>
-  
-  
-
-
+<!DOCTYPE databaseProduct SYSTEM "product.dtd">
+<databaseProduct>
+	<Product id="p1753">
+		<Product.name>Denim Jacket</Product.name>
+		<Product.size>S</Product.size>
+		<Product.size>M</Product.size>
+		<Product.size>L</Product.size>
+		<Product.description>White denim jacket, metal buttons, buttoned pockets</Product.description>
+		<Product.price>37.99</Product.price>
+		<Product.comments>
+			<Comment refid="c1"/>
+		</Product.comments>
+	</Product>
+	<Product id="p1757">
+		<Product.name>Bomber Jacket</Product.name>
+		<Product.size>M</Product.size>
+		<Product.size>XL</Product.size>
+		<Product.description>Black rain-resistant jacket, zipped pockets</Product.description>
+		<Product.price>23.99</Product.price>
+		<Product.comments>
+			<Comment refid="c2"/>
+			<Comment refid="c3"/>
+		</Product.comments>
+	</Product>
+	<Product id="p228">
+		<Product.name>Echo Dot</Product.name>
+		<Product.size>One Size </Product.size>
+		<Product.description>Smart speaker with Alexa</Product.description>
+		<Product.price>30</Product.price>
+		<Product.comments></Product.comments>
+	</Product>
+	<Product id="p991">
+		<Product.name>Dumbbell</Product.name>
+		<Product.size>5 kg</Product.size>
+		<Product.size>10 kg</Product.size>
+		<Product.description>One-handed weight which comes in a variety of sizes</Product.description>
+		<Product.price>29.99</Product.price>
+		<Product.comments></Product.comments>
+	</Product>
+	<Product id="p123">
+		<Product.name>Trowel</Product.name>
+		<Product.size>N/A</Product.size>
+		<Product.description>used to dig up topsoil</Product.description>
+		<Product.price>19.99</Product.price>
+		<Product.comments></Product.comments>
+	</Product>
+</databaseProduct>

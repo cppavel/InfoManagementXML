@@ -1,20 +1,64 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE Comment SYSTEM "Comment.dtd">
-	
-<Comment rating ="5" xmi.id ="c1">
-	<Comment.description>
-		<title>BORAT HERE</title>
-		<text>VERY NICE PRODUCT, BACK IN KAZAKHSTAN WE DON'T HAVE SUCH</text>
-		<author>BORAT</author>
-		<location>ALMATY</location>
-	</Comment.description>
-	<Comment.upvotes>
+<!DOCTYPE databaseComment SYSTEM "Comment.dtd">
+<databaseComment>
+	<Comment rating="5" id="c1">
+		<Comment.description>
+			<title>BORAT HERE</title>
+			<text>VERY NICE PRODUCT, BACK IN KAZAKHSTAN WE DON'T HAVE SUCH</text>
+			<author>BORAT</author>
+			<location>ALMATY</location>
+		</Comment.description>
+		<Comment.upvotes>
 			10
 		</Comment.upvotes>
-	<Comment.downvotes>
+		<Comment.downvotes>
 			2
 		</Comment.downvotes>
-	<Comment.userRating>
+		<Comment.userRating>
 			8
+	</Comment.userRating>
+		<Comment.product>
+			<Product refid="p1753"/>
+		</Comment.product>
+	</Comment>
+	<Comment rating="3" id="c2">
+		<Comment.description>
+			<title>NO GOOD WORK</title>
+			<text>VERY BAD QUALITY NO GOOD WORK</text>
+			<author>VASYA</author>
+			<location>SIBERIA</location>
+		</Comment.description>
+		<Comment.upvotes>
+			100
+		</Comment.upvotes>
+		<Comment.downvotes>
+			0
+		</Comment.downvotes>
+		<Comment.userRating>
+			100
+	</Comment.userRating>
+		<Comment.product>
+			<Product refid="p1757"/>
+		</Comment.product>
+	</Comment>
+	<Comment rating="5" id="c3">
+		<Comment.description>
+			<title>SUPER NICE</title>
+			<text>NO PROBLEMS AT ALL</text>
+			<author>KOLYA</author>
+			<location>SIBERIA</location>
+		</Comment.description>
+		<Comment.upvotes>
+			0
+		</Comment.upvotes>
+		<Comment.downvotes>
+			200
+		</Comment.downvotes>
+		<Comment.userRating>
+			-200
 		</Comment.userRating>
-</Comment>
+		<Comment.product>
+			<Product refid="p1757"/>
+		</Comment.product>
+	</Comment>
+</databaseComment>

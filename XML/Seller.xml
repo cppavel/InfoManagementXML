@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE database SYSTEM "Seller.dtd">
+<!DOCTYPE databaseSeller SYSTEM "Seller.dtd">
 
-
-
-
-<database>
-<Seller xmi.id="s2">
-  <User.id> 138729 </User.id>
-  <User.fullName> Mark Jacobs </User.fullName>
-  <User.isLoggedIn> True </User.isLoggedIn>
-  
-  <Seller.shop>
-    <Shop.shopName> HeavyGym </Shop.shopName>
-    <Shop.products> 
-      <Product.name> Dumbbell </Product.name>
-      <Product.description> One-handed weight which comes in a variety of sizes </Product.description>
-    </Shop.products>
-  </Seller.shop> 
-  
-  <Seller.shop>
-    <Shop.shopName> GardenWorkshop</Shop.shopName>
-    <Shop.products>
-      <Product.name> Trowel </Product.name>
-      <Product.description> used to dig up topsoil </Product.description>
-    </Shop.products>
-  </Seller.shop>
-  
-  <Seller.onlineCheckoutId> 22857 </Seller.onlineCheckoutId>
-  <Seller.owner><Shop xmi.idef="tbd"/></Seller.owner>
-</Seller>
-</database>
-
-
+<databaseSeller>
+	<Seller id="sl1">
+		<User.fullname> Mark Jacobs </User.fullname>
+		<User.isLoggedIn> True </User.isLoggedIn>
+		<User.account>
+			<Account refid="a9"/>
+		</User.account>
+		<Seller.shops>
+			<Shop refid="s3"/>
+			<Shop refid="s4"/>
+		</Seller.shops>
+		<Seller.onlineCheckoutId> 22857 </Seller.onlineCheckoutId>
+	</Seller>
+	<Seller id="sl2">
+		<User.fullname>David O.</User.fullname>
+		<User.isLoggedIn>True</User.isLoggedIn>
+		<User.account>
+			<Account refid="a7"/>
+		</User.account>
+		<Seller.shops>
+			<Shop refid="s1"/>
+			<Shop refid="s2"/>
+		</Seller.shops>
+		<Seller.onlineCheckoutId> 00157 </Seller.onlineCheckoutId>
+	</Seller>
+</databaseSeller>

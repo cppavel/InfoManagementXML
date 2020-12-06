@@ -1,0 +1,25 @@
+<?xml version='1.0' standalone="no"?>
+<!DOCTYPE databaseAccount SYSTEM "Account.dtd">
+<databaseAccount>
+	<Account id="a7">
+		<Account.emailAddress>olowookd@tcd.ie</Account.emailAddress>
+		<Account.username>olowookd</Account.username>
+		<Account.password>notMyRealPassword</Account.password>
+		<Account.shippingAddress>27 Pineapple Lane, Co. Wexford</Account.shippingAddress>
+		<Account.cardDetails>12345678910111213141516</Account.cardDetails>
+	</Account>
+	<Account id="a8">
+		<Account.emailAddress>petrukhp@tcd.ie</Account.emailAddress>
+		<Account.username>petrukhp</Account.username>
+		<Account.password>PUTIN VODKA</Account.password>
+		<Account.shippingAddress>Cremlin, Moscow, Russia</Account.shippingAddress>
+		<Account.cardDetails>CASH FOR THE PACKAGE</Account.cardDetails>
+	</Account>
+	<Account id="a9">
+		<Account.emailAddress>flex@tcd.ie</Account.emailAddress>
+		<Account.username>flexer228</Account.username>
+		<Account.password>ajfjff11!</Account.password>
+		<Account.shippingAddress>Vladimir, Russia</Account.shippingAddress>
+		<Account.cardDetails>9999999900001111</Account.cardDetails>
+	</Account>
+</databaseAccount>

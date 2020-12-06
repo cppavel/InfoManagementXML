@@ -1,0 +1,8 @@
+<!ELEMENT databaseAccount (Account*)>
+<!ELEMENT Account (Account.emailAddress,Account.username,Account.password,Account.shippingAddress,Account.cardDetails)>
+<!ATTLIST Account id CDATA #REQUIRED>
+<!ELEMENT Account.emailAddress (#PCDATA)>
+<!ELEMENT Account.username (#PCDATA)>
+<!ELEMENT Account.password (#PCDATA)>
+<!ELEMENT Account.shippingAddress (#PCDATA)>
+<!ELEMENT Account.cardDetails (#PCDATA)>

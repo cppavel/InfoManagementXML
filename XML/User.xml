@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE databaseUser SYSTEM "User.dtd">
 
+<databaseUser>
+	<User id="u1">
+		<User.fullName> David O.</User.fullName>
+		<User.isLoggedIn> True </User.isLoggedIn>
+		<User.account>
+			<Account refid="a7"/>
+		</User.account>
+	</User>
+	<User id="u2">
+		<User.fullName> Pavel P.</User.fullName>
+		<User.isLoggedIn> False </User.isLoggedIn>
+		<User.account>
+			<Account refid="a8"/>
+		</User.account>
+	</User>
+	<User id="u3">
+		<User.fullName> Mark Jacobs </User.fullName>
+  		<User.isLoggedIn> True </User.isLoggedIn>
+  		<User.account>
+  			<Account refid="a9"/>
+  		</User.account>
+	</User>
 
-
-<!DOCTYPE database SYSTEM "User.dtd">
-
-<database>
-<User xmi.id="u1">
-  <User.id> 138729 </User.id>
-  <User.fullName> Mark Jacobs </User.fullName>
-  <User.isLoggedIn> True </User.isLoggedIn>
-  <User.owner><Account xmi.idef="tbd"/></User.owner>
-</User>
-</database>
-
+ 
+</databaseUser>
