@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE databaseProduct SYSTEM "product.dtd">
+<!DOCTYPE databaseProduct SYSTEM "Product.dtd">
 <databaseProduct>
 	<Product id="p1753">
 		<Product.name>Denim Jacket</Product.name>
