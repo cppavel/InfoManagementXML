@@ -1,0 +1,17 @@
+
+<!ELEMENT databaseCustomer (Customer*)>
+<!ELEMENT Customer (User.fullname?,User.isLoggedIn?,User.account,Customer.PrefferedCurrency?,Customer.PrefferedPaymentMethod?,Customer.Wishlist?)>
+<!ATTLIST Customer
+ id CDATA #REQUIRED >
+ 
+<!ELEMENT User.fullname (#PCDATA)>
+<!ELEMENT User.isLoggedIn (#PCDATA)>
+<!ELEMENT User.account (Account)>  
+<!ELEMENT Account EMPTY>
+<!ATTLIST Account refid CDATA #REQUIRED>
+
+<!ELEMENT Customer.PreferredCurrency (#PCDATA)>
+<!ELEMENT Customer.PreferredPaymentMethod (#PCDATA)>
+<!ELEMENT User.Wishlist (Product*)>
+<!ELEMENT Product EMPTY>
+<!ATTLIST Product refid CDATA #REQUIRED>
