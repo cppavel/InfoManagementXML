@@ -5,77 +5,40 @@
 
 
 <databaseCustomer>
-
 	<Customer id="cs1">
-
 		<User.fullname> Sam Samuels </User.fullname>
-
 		<User.isLoggedIn> True </User.isLoggedIn>
-
 		<User.account>
-
 			<Account refid="a11"/>
-
 		</User.account>
-
 		<Customer.PrefferedCurrency> Euro </Customer.PrefferedCurrency>
-
 		<Customer.PrefferedPaymentMethod> Visa </Customer.PrefferedPaymentMethod>
-
 		<Customer.Wishlist>
-
 			<Product refid="1"/>
-
 			<Product refid="2"/>
-
 			<Product refid="4"/>
-
 			<Product refid="6"/>
-
 			<Product refid="8"/>
-
 			<Product refid="10"/>
-
 			<Product refid="15"/>
-
 		</Customer.Wishlist>
-
 	</Customer>
-
 	<Customer id="cs2">
-
 		<User.fullname> Steve Stevenson </User.fullname>
-
 		<User.isLoggedIn> True </User.isLoggedIn>
-
 		<User.account>
-
 			<Account refid="a13"/>
-
 		</User.account>
-
 		<Customer.PrefferedCurrency> United States Dollar </Customer.PrefferedCurrency>
-
 		<Customer.PrefferedPaymentMethod> PayPal </Customer.PrefferedPaymentMethod>
-
 		<Customer.Wishlist>
-
 			<Product refid="1"/>
-
 			<Product refid="3"/>
-
 			<Product refid="4"/>
-
 			<Product refid="7"/>
-
 			<Product refid="9"/>
-
 			<Product refid="13"/>
-
 			<Product refid="15"/>
-
 		</Customer.Wishlist>
-
 	</Customer>
-
 </databaseCustomer>
