@@ -1,14 +1,12 @@
 <!ELEMENT databaseSeller (Seller*)>
 <!ELEMENT Seller (User.fullname?,User.isLoggedIn?,User.account,Seller.shops*,Seller.onlineCheckoutId?)> 
-<!ATTLIST Seller
- id CDATA #REQUIRED >
+<!ATTLIST Seller id CDATA #REQUIRED >
 <!ELEMENT User.fullname (#PCDATA)>
 <!ELEMENT User.isLoggedIn (#PCDATA)>
 <!ELEMENT User.account (Account)>  
 <!ELEMENT Account EMPTY>
 <!ATTLIST Account refid CDATA #REQUIRED>
-<!ELEMENT Seller.shops (Shop*)
->
+<!ELEMENT Seller.shops (Shop*)>
 <!ELEMENT Shop EMPTY>
 <!ATTLIST Shop refid CDATA #REQUIRED>
 <!ELEMENT Seller.onlineCheckoutId (#PCDATA)>
