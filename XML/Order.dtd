@@ -1,0 +1,9 @@
+<!ELEMENT databaseOrder (Order*)>
+<!ELEMENT Order (Order.dateOrdered, Order.dateShipped, Order.orderStatus, Order.sumTotal, Order.billingAddress, Order.shippingAddress)>
+<!ELEMENT Order id CDATA #REQUIRED>
+<!ELEMENT Order.dateOrdered (#PCDATA)>
+<!ELEMENT Order.dateShipped (#PCDATA)>
+<!ELEMENT Order.orderStatus (#PCDATA)>
+<!ELEMENT Order.sumTotal (#PCDATA)>
+<!ELEMENT Order.billingAddress (#PCDATA)>
+<!ELEMENT Order.shippingAddress (#PCDATA)>
