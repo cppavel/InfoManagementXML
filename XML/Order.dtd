@@ -1,9 +1,16 @@
 <!ELEMENT databaseOrder (Order*)>
-<!ELEMENT Order (Order.dateOrdered, Order.dateShipped, Order.orderStatus, Order.sumTotal, Order.billingAddress, Order.shippingAddress)>
-<!ELEMENT Order id CDATA #REQUIRED>
+<!ELEMENT Order (Order.dateOrdered, Order.dateShipped, Order.orderStatus, Order.sumTotal,
+	 Order.billingAddress, Order.shippingAddress,Order.customer,Order.seller)>
+<!ATTLIST Order id CDATA #REQUIRED>
 <!ELEMENT Order.dateOrdered (#PCDATA)>
 <!ELEMENT Order.dateShipped (#PCDATA)>
 <!ELEMENT Order.orderStatus (#PCDATA)>
 <!ELEMENT Order.sumTotal (#PCDATA)>
 <!ELEMENT Order.billingAddress (#PCDATA)>
 <!ELEMENT Order.shippingAddress (#PCDATA)>
+<!ELEMENT Order.customer (Customer) >
+<!ELEMENT Customer EMPTY>
+<!ATTLIST Customer refid CDATA #REQUIRED>
+<!ELEMENT Order.seller (Seller)>
+<!ELEMENT Seller EMPTY>
+<!ATTLIST Seller refid CDATA #REQUIRED>

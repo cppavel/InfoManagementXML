@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <!DOCTYPE databaseCustomer SYSTEM "Customer.dtd">
-
-
 <databaseCustomer>
 	<Customer id="cs1">
 		<User.fullname> Sam Samuels </User.fullname>
@@ -11,17 +7,16 @@
 		<User.account>
 			<Account refid="a11"/>
 		</User.account>
-		<Customer.PrefferedCurrency> Euro </Customer.PrefferedCurrency>
-		<Customer.PrefferedPaymentMethod> Visa </Customer.PrefferedPaymentMethod>
+		<Customer.PrefCurrency>Euro</Customer.PrefCurrency>
+		<Customer.PrefPayMethod> Visa </Customer.PrefPayMethod>
 		<Customer.Wishlist>
-			<Product refid="1"/>
-			<Product refid="2"/>
-			<Product refid="4"/>
-			<Product refid="6"/>
-			<Product refid="8"/>
-			<Product refid="10"/>
-			<Product refid="15"/>
+			<Product refid="p1753"/>
+			<Product refid="p1757"/>
 		</Customer.Wishlist>
+		<Customer.orders>
+			<Order refid="O735"/>
+			<Order refid="O736"/>
+		</Customer.orders>
 	</Customer>
 	<Customer id="cs2">
 		<User.fullname> Steve Stevenson </User.fullname>
@@ -29,16 +24,16 @@
 		<User.account>
 			<Account refid="a13"/>
 		</User.account>
-		<Customer.PrefferedCurrency> United States Dollar </Customer.PrefferedCurrency>
-		<Customer.PrefferedPaymentMethod> PayPal </Customer.PrefferedPaymentMethod>
+		<Customer.PrefCurrency> United States Dollar </Customer.PrefCurrency>
+		<Customer.PrefPayMethod> PayPal </Customer.PrefPayMethod>
 		<Customer.Wishlist>
-			<Product refid="1"/>
-			<Product refid="3"/>
-			<Product refid="4"/>
-			<Product refid="7"/>
-			<Product refid="9"/>
-			<Product refid="13"/>
-			<Product refid="15"/>
+			<Product refid="p228"/>
+			<Product refid="p991"/>
+			<Product refid="p123"/>
 		</Customer.Wishlist>
+		<Customer.orders>
+			<Order refid="O737"/>
+			<Order refid="O738"/>
+		</Customer.orders>
 	</Customer>
 </databaseCustomer>

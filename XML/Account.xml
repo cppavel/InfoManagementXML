@@ -22,4 +22,20 @@
 		<Account.shippingAddress>Vladimir, Russia</Account.shippingAddress>
 		<Account.cardDetails>9999999900001111</Account.cardDetails>
 	</Account>
+	<Account id="a11">
+		<Account.emailAddress>sam.samuels@gmail.com</Account.emailAddress>
+		<Account.username>sssam</Account.username>
+		<Account.password>qwerty123!</Account.password>
+		<Account.shippingAddress>Dublin, Ireland</Account.shippingAddress>
+		<Account.cardDetails>9999222333221111</Account.cardDetails>
+	</Account>
+
+	<Account id="a13">
+		<Account.emailAddress>steve.steveson@gmail.com</Account.emailAddress>
+		<Account.username>sssteave</Account.username>
+		<Account.password>trumpmylove1!</Account.password>
+		<Account.shippingAddress>Alabama, USA</Account.shippingAddress>
+		<Account.cardDetails>99992223332200011</Account.cardDetails>
+	</Account>
+
 </databaseAccount>

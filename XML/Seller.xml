@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE databaseSeller SYSTEM "Seller.dtd">
-
 <databaseSeller>
 	<Seller id="sl1">
 		<User.fullname> Mark Jacobs </User.fullname>

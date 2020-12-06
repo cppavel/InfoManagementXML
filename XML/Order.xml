@@ -1,37 +1,60 @@
-
-<?xml version='1.0' standalone="no"?>
+<?xml version="1.0" standalone="no"?>
 <!DOCTYPE databaseOrder SYSTEM "Order.dtd">
 <databaseOrder>
-    <Order id="O735">
-        <Order.dateOrdered>17.01.20</Order.dateOrdered>
-        <Order.dateShipped>21.01.20</Order.dateShipped>
-        <Order.orderStatus>Delivered</Order.orderStatus>
-        <Order.sumTotal>65.00</Order.sumTotal>
-        <Order.billingAddress>123 O'Neill Street, Co.Wicklow, Ireland</Order.billingAddress>
-        <Order.shippingAddress>123 O'Neill Street, Co.Wicklow, Ireland</Order.shippingAddress>
-    </Order>
-    <Order id="O736">
-        <Order.dateOrdered>15.04.20</Order.dateOrdered>
-        <Order.dateShipped>17.04.20</Order.dateShipped>
-        <Order.orderStatus>Delivered</Order.orderStatus>
-        <Order.sumTotal>43.76</Order.sumTotal>
-        <Order.billingAddress>64 Zoo Lane, Co.Kildare, Ireland</Order.billingAddress>
-        <Order.shippingAddress>64 Zoo Lane, Co.Kildare, Ireland</Order.shippingAddress>
-    </Order>
-    <Order id="O737">
-        <Order.dateOrdered>13.09.20</Order.dateOrdered>
-        <Order.dateShipped>17.09.20</Order.dateShipped>
-        <Order.orderStatus>Delivered</Order.orderStatus>
-        <Order.sumTotal>29.99</Order.sumTotal>
-        <Order.billingAddress>90 Canary Walk, London, United Kingdom</Order.billingAddress>
-        <Order.shippingAddress>37 Rainbow Road, Co.Tipperary, Ireland</Order.shippingAddress>
-    </Order>
-    <Order id="O738">
-        <Order.dateOrdered>01.12.20</Order.dateOrdered>
-        <Order.dateShipped>05.12.20</Order.dateShipped>
-        <Order.orderStatus>In Transit</Order.orderStatus>
-        <Order.sumTotal>173.77</Order.sumTotal>
-        <Order.billingAddress>57 Trinity Way, Dublin 2, Ireland</Order.billingAddress>
-        <Order.shippingAddress>104 Lagan Street, New York, United States of America</Order.shippingAddress>
-    </Order>
+	<Order id="O735">
+		<Order.dateOrdered>17.01.20</Order.dateOrdered>
+		<Order.dateShipped>21.01.20</Order.dateShipped>
+		<Order.orderStatus>Delivered</Order.orderStatus>
+		<Order.sumTotal>65.00</Order.sumTotal>
+		<Order.billingAddress>123 O'Neill Street, Co.Wicklow, Ireland</Order.billingAddress>
+		<Order.shippingAddress>123 O'Neill Street, Co.Wicklow, Ireland</Order.shippingAddress>
+		<Order.customer>
+			<Customer refid="cs1"/>
+		</Order.customer>
+		<Order.seller>
+			<Seller refid="sl1"/>
+		</Order.seller>
+	</Order>
+	<Order id="O736">
+		<Order.dateOrdered>15.04.20</Order.dateOrdered>
+		<Order.dateShipped>17.04.20</Order.dateShipped>
+		<Order.orderStatus>Delivered</Order.orderStatus>
+		<Order.sumTotal>43.76</Order.sumTotal>
+		<Order.billingAddress>64 Zoo Lane, Co.Kildare, Ireland</Order.billingAddress>
+		<Order.shippingAddress>64 Zoo Lane, Co.Kildare, Ireland</Order.shippingAddress>
+		<Order.customer>
+			<Customer refid="cs1"/>
+		</Order.customer>
+		<Order.seller>
+			<Seller refid="sl2"/>
+		</Order.seller>
+	</Order>
+	<Order id="O737">
+		<Order.dateOrdered>13.09.20</Order.dateOrdered>
+		<Order.dateShipped>17.09.20</Order.dateShipped>
+		<Order.orderStatus>Delivered</Order.orderStatus>
+		<Order.sumTotal>29.99</Order.sumTotal>
+		<Order.billingAddress>90 Canary Walk, London, United Kingdom</Order.billingAddress>
+		<Order.shippingAddress>37 Rainbow Road, Co.Tipperary, Ireland</Order.shippingAddress>
+		<Order.customer>
+			<Customer refid="cs2"/>
+		</Order.customer>
+		<Order.seller>
+			<Seller refid="sl1"/>
+		</Order.seller>
+	</Order>
+	<Order id="O738">
+		<Order.dateOrdered>01.12.20</Order.dateOrdered>
+		<Order.dateShipped>05.12.20</Order.dateShipped>
+		<Order.orderStatus>In Transit</Order.orderStatus>
+		<Order.sumTotal>173.77</Order.sumTotal>
+		<Order.billingAddress>57 Trinity Way, Dublin 2, Ireland</Order.billingAddress>
+		<Order.shippingAddress>104 Lagan Street, New York, United States of America</Order.shippingAddress>
+		<Order.customer>
+			<Customer refid="cs2"/>
+		</Order.customer>
+		<Order.seller>
+			<Seller refid="sl2"/>
+		</Order.seller>
+	</Order>
 </databaseOrder>
