@@ -61,7 +61,7 @@
 			<Product refid="p1757"/>
 		</Comment.product>
 	</Comment>
-  <Comment rating="4" id="c4">
+  	<Comment rating="4" id="c4">
 		<Comment.description>
 			<title>SUPER NICE, GOOD</title>
 			<text>NO PROBLEMS AT ALL, though delivery was long</text>
@@ -81,7 +81,7 @@
 			<Product refid="p228"/>
 		</Comment.product>
 	</Comment> 
-  <Comment rating="2.3" id="c5">
+  	<Comment rating="2.3" id="c5">
 		<Comment.description>
 			<title>AWFUL</title>
 			<text>Item was damaged</text>
