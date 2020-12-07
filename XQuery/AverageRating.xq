@@ -5,11 +5,9 @@ declare function local:getAverageRating($productId as xs:string){
     databaseProduct/Product where $productId = $p/@id return $p/
       Product.comments/Comment
   
-  let $ratings:= for $commentId in $commentIds/@refid
+  let $numericalRatings:= for $commentId in $commentIds/@refid
     for $c in doc("../XML/Comment.xml")/databaseComment/Comment
-      where $commentId = $c/@id return <entry>{$c/@rating}</entry>
-      
-  let $numericalRatings:= $ratings/xs:double(@rating)
+      where $commentId = $c/@id return$c/xs:double(@rating)
       
   return avg($numericalRatings)
 };
