@@ -28,7 +28,10 @@
 		<Product.size>One Size </Product.size>
 		<Product.description>Smart speaker with Alexa</Product.description>
 		<Product.price>30</Product.price>
-		<Product.comments></Product.comments>
+		<Product.comments>
+      <Comment refid="c4"></Comment>
+      <Comment refid="c5"></Comment>
+    </Product.comments>
 	</Product>
 	<Product id="p991">
 		<Product.name>Dumbbell</Product.name>

@@ -61,4 +61,44 @@
 			<Product refid="p1757"/>
 		</Comment.product>
 	</Comment>
+  <Comment rating="4" id="c4">
+		<Comment.description>
+			<title>SUPER NICE, GOOD</title>
+			<text>NO PROBLEMS AT ALL, though delivery was long</text>
+			<author>Grace</author>
+			<location>Beijing</location>
+		</Comment.description>
+		<Comment.upvotes>
+			123
+		</Comment.upvotes>
+		<Comment.downvotes>
+			10
+		</Comment.downvotes>
+		<Comment.userRating>
+			113
+		</Comment.userRating>
+		<Comment.product>
+			<Product refid="p228"/>
+		</Comment.product>
+	</Comment> 
+  <Comment rating="2.3" id="c5">
+		<Comment.description>
+			<title>AWFUL</title>
+			<text>Item was damaged</text>
+			<author>Bernadine</author>
+			<location>Paris, France</location>
+		</Comment.description>
+		<Comment.upvotes>
+			10
+		</Comment.upvotes>
+		<Comment.downvotes>
+			0
+		</Comment.downvotes>
+		<Comment.userRating>
+			10
+		</Comment.userRating>
+		<Comment.product>
+			<Product refid="p228"/>
+		</Comment.product>
+	</Comment>
 </databaseComment>
