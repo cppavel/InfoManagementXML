@@ -57,4 +57,18 @@
 			<Seller refid="sl2"/>
 		</Order.seller>
 	</Order>
+  	<Order id="O739">
+		<Order.dateOrdered>01.12.20</Order.dateOrdered>
+		<Order.dateShipped>05.12.20</Order.dateShipped>
+		<Order.orderStatus>In Transit</Order.orderStatus>
+		<Order.sumTotal>12288.90</Order.sumTotal>
+		<Order.billingAddress>Trinity College, Dublin 2, Ireland</Order.billingAddress>
+		<Order.shippingAddress>Times Square, New York, United States of America</Order.shippingAddress>
+		<Order.customer>
+			<Customer refid="cs3"/>
+		</Order.customer>
+		<Order.seller>
+			<Seller refid="sl2"/>
+		</Order.seller>
+	</Order>
 </databaseOrder>

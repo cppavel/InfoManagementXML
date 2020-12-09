@@ -36,4 +36,19 @@
 			<Order refid="O738"/>
 		</Customer.orders>
 	</Customer>
+  	<Customer id="cs3">
+		<User.fullname> Vladimir Kozlov </User.fullname>
+		<User.isLoggedIn> True </User.isLoggedIn>
+		<User.account>
+			<Account refid="a14"/>
+		</User.account>
+		<Customer.PrefCurrency>Rubbles</Customer.PrefCurrency>
+		<Customer.PrefPayMethod> Visa </Customer.PrefPayMethod>
+		<Customer.Wishlist>
+			<Product refid="p228"/>
+		</Customer.Wishlist>
+		<Customer.orders>
+      <Order refid="O739"/>
+		</Customer.orders>
+	</Customer>
 </databaseCustomer>

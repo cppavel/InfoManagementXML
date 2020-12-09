@@ -14,7 +14,6 @@
 	</Product>
 	<Product id="p1757">
 		<Product.name>Bomber Jacket</Product.name>
-		<Product.size>M</Product.size>
 		<Product.size>XL</Product.size>
 		<Product.description>Black rain-resistant jacket, zipped pockets</Product.description>
 		<Product.price>23.99</Product.price>
